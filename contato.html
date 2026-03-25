@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo"><span class="logo-dot"></span><span>DEV</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                <li><a href="contato.html" class="nav-link active">Contato</a></li>
+            </ul>
+            <a href="contato.html" class="nav-cta">Fale comigo</a>
+            <button class="hamburger" id="hamburger"><span></span><span></span></button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-inner">
+                <a href="index.html" class="back-btn reveal">← Voltar</a>
+                <div class="section-label reveal">Contato</div>
+                <h1 class="reveal">Vamos <span style="color:var(--accent)">conversar</span></h1>
+                <p class="reveal" style="font-size:1.1rem; margin-top:1.5rem; max-width:520px;">
+                    Tenho interesse em ouvir sobre novos projetos e oportunidades. Me manda uma mensagem!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- INFO -->
+                <div class="contact-info">
+                    <div class="section-label reveal">Informações</div>
+                    <h2 class="reveal">Entre em<br>contato</h2>
+                    <p class="reveal">Estou disponível para freelances, colaborações e oportunidades de emprego. Respondo em até 24h.</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item reveal">
+                            <div class="ci-icon">✉️</div>
+                            <div>
+                                <div class="ci-label">Email</div>
+                                <a href="https://mail.google.com/mail/u/0/#inbox" class="ci-value" target="_blank">Sabrinasantosoliveira82@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item reveal">
+                            <div class="ci-icon">📞</div>
+                            <div>
+                                <div class="ci-label">Telefone</div>
+                                <a href="tel:+5511966910014" class="ci-value" target="_blank">+55 (11) 96691-0014</a>
+                            </div>
+                        </div>
+                        <div class="contact-item reveal">
+                            <div class="ci-icon">📍</div>
+                            <div>
+                                <div class="ci-label">Localização</div>
+                                <span class="ci-value">Cajamar, SP — Brasil</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reveal">
+                        <div class="ci-label" style="margin-bottom:1rem;">Redes sociais</div>
+                        <div class="socials">
+                            <a href="https://github.com/sasasantos" class="social-btn" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/sabrina-santos-de-oliveira-33b5073b0/" class="social-btn" target="_blank">LinkedIn</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" class="social-btn" target="_blank">Email</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="contact-form-card reveal">
+                    <h2>Envie uma mensagem</h2>
+
+                    <div class="success-banner" id="successBanner">
+                        ✓ Mensagem enviada! Obrigado pelo contato — responderei em breve.
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-field">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" placeholder="Sobre o que quer falar?" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte mais sobre seu projeto ou ideia..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-main" style="border:none; width:100%; justify-content:center;">
+                            <span>Enviar mensagem</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"><span class="logo-dot"></span>DEV</a>
+                    <p>Desenvolvedor web criativo.<br>Transformando ideias em realidade digital.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <span class="footer-col-title">Páginas</span>
+                        <a href="index.html">Home</a>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="footer-col-title">Social</span>
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 Meu Portfólio</span>
+                <span>Feito com ♥ e muito café</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

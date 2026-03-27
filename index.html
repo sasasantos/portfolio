@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio — Desenvolvedor Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- CURSOR -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-dot"></span>
+                <span>DEV</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <a href="contato.html" class="nav-cta">Fale comigo</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="grid-lines"></div>
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="noise-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-tag reveal">
+                <span class="tag-dot"></span>
+                Disponível para novos projetos
+            </div>
+
+            <h1 class="hero-title reveal">
+                <span class="line">Criando</span>
+                <span class="line accent-line">experiências </span>
+                <span class="line">digitais</span>
+            </h1>
+
+            <p class="hero-desc reveal">
+                Desenvolvedora web apaixonado por design e código.<br>
+                Transformo ideias em produtos digitais memoráveis.
+            </p>
+
+            <div class="hero-actions reveal">
+                <a href="projetos.html" class="btn-main">
+                    <span>Ver projetos</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="sobre.html" class="btn-ghost">Sobre mim</a>
+            </div>
+
+            <div class="hero-stats reveal">
+                <div class="stat">
+                    <span class="stat-n">20+</span>
+                    <span class="stat-l">Projetos</span>
+                </div>
+                <div class="stat-div"></div>
+                <div class="stat">
+                    <span class="stat-n">100%</span>
+                    <span class="stat-l">Responsivo</span>
+                </div>
+                <div class="stat-div"></div>
+                <div class="stat">
+                    <span class="stat-n">∞</span>
+                    <span class="stat-l">Criatividade</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>scroll</span>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-inner">
+                <span>HTML</span><span class="sep">✦</span>
+                <span>CSS</span><span class="sep">✦</span>
+                <span>JavaScript</span><span class="sep">✦</span>
+                <span>React</span><span class="sep">✦</span>
+                <span>Node.js</span><span class="sep">✦</span>
+                <span>Figma</span><span class="sep">✦</span>
+                <span>GitHub</span><span class="sep">✦</span>
+                <span>APIs REST</span><span class="sep">✦</span>
+                <!-- duplicated -->
+                <span>HTML</span><span class="sep">✦</span>
+                <span>CSS</span><span class="sep">✦</span>
+                <span>JavaScript</span><span class="sep">✦</span>
+                <span>React</span><span class="sep">✦</span>
+                <span>Node.js</span><span class="sep">✦</span>
+                <span>Figma</span><span class="sep">✦</span>
+                <span>GitHub</span><span class="sep">✦</span>
+                <span>APIs REST</span><span class="sep">✦</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOBRE RAPIDO -->
+    <section class="about-snap section">
+        <div class="container">
+            <div class="about-snap-grid">
+                <div class="about-snap-left">
+                    <div class="section-label reveal">Quem sou</div>
+                    <h2 class="reveal">Desenvolvedora focada em desenvolvimento web</h2>
+                </div>
+                <div class="about-snap-right reveal">
+                    <p>Sou programadora de Desenvolvimento e Análise de Sistemas, com experiência na criação de soluções eficientes. Atuo na análise de requisitos e desenvolvimento de sistemas, buscando sempre qualidade e melhoria contínua.</p>
+                    <a href="sobre.html" class="link-arrow">
+                        Conhecer mais
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pillars">
+                <div class="pillar reveal">
+                    <div class="pillar-num">01</div>
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <p>Forma profissionais para desenvolver e manter sistemas.</p>
+                </div>
+                <div class="pillar reveal" style="animation-delay:.1s">
+                    <div class="pillar-num">02</div>
+                    <h3>Fundamentos Técnicos</h3>
+                    <p>Ensina programação, banco de dados e lógica.</p>
+                </div>
+                <div class="pillar reveal" style="animation-delay:.2s">
+                    <div class="pillar-num">03</div>
+                    <h3>Mercado de Trabalho</h3>
+                    <p>Prepara para o mercado de tecnologia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS EM DESTAQUE -->
+    <section class="featured-projects section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Portfólio</div>
+                <h2>Projetos em destaque</h2>
+            </div>
+
+            <div class="proj-grid">
+                <a href="projetos.html" class="proj-card proj-card--large reveal">
+                    <div class="proj-card-img" style="background: linear-gradient(135deg, #0A0A0A 0%, #1a1a2e 50%, #16213e 100%);">
+                        <div class="proj-card-overlay1"></div>
+                        <span class="proj-num">01</span>
+                    </div>
+                    <div class="proj-card-info">
+                        <div class="proj-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <h3>Sweet House</h3>
+                        <p>O site da Sweet House apresenta uma doceria especializada em doces artesanais, com foco em oferecer produtos saborosos e de qualidade para diferentes ocasiões. A marca trabalha com opções como bolos, doces e sobremesas, destacando o capricho e o cuidado na produção. A proposta é proporcionar praticidade ao cliente, permitindo visualizar os produtos e fazer pedidos de forma simples e rápida.</p>
+                        <span class="proj-link">Ver projeto →</span>
+                    </div>
+                </a>
+
+                <a href="projetos.html" class="proj-card reveal" style="animation-delay:.1s">
+                    <div class="proj-card-img" style="background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);">
+                        <div class="proj-card-overlay2"></div>
+                        <span class="proj-num">02</span>
+                    </div>
+                    <div class="proj-card-info">
+                        <div class="proj-tags">
+                            <span>React</span><span>API</span>
+                        </div>
+                        <h3>App de Tarefas</h3>
+                        <p>Gerenciamento com sync em tempo real e design minimalista.</p>
+                        <span class="proj-link">Ver projeto →</span>
+                    </div>
+                </a>
+
+                <a href="projetos.html" class="proj-card reveal" style="animation-delay:.2s">
+                    <div class="proj-card-img" style="background: linear-gradient(135deg, #0f3460 0%, #533483 100%);">
+                        <div class="proj-card-overlay3"></div>
+                        <span class="proj-num">03</span>
+                    </div>
+                    <div class="proj-card-info">
+                        <div class="proj-tags">
+                            <span>Chart.js</span><span>REST</span>
+                        </div>
+                        <h3>Dashboard Interativo</h3>
+                        <p>Visualização de dados com gráficos dinâmicos e tema dark/light.</p>
+                        <span class="proj-link">Ver projeto →</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section-cta reveal">
+                <a href="projetos.html" class="btn-main">
+                    <span>Todos os projetos</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final section">
+        <div class="container">
+            <div class="cta-box reveal">
+                <div class="cta-bg-blur"></div>
+                <div class="cta-content">
+                    <span class="section-label">Contato</span>
+                    <h2>Pronto para criar algo incrível?</h2>
+                    <p>Vamos conversar sobre seu projeto. Estou disponível para freelances e oportunidades de trabalho.</p>
+                    <a href="contato.html" class="btn-main btn-main--light">
+                        <span>Iniciar conversa</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-dot"></span>DEV
+                    </a>
+                    <p>Desenvolvedor web criativo.<br>Transformando ideias em realidade digital.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <span class="footer-col-title">Páginas</span>
+                        <a href="index.html">Home</a>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="footer-col-title">Social</span>
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 Meu Portfólio</span>
+                <span>Feito com ♥ e muito café</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

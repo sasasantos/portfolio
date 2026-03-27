@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-dot"></span><span>DEV</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="sobre.html" class="nav-link active">Sobre</a></li>
+                <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <a href="contato.html" class="nav-cta">Fale comigo</a>
+            <button class="hamburger" id="hamburger"><span></span><span></span></button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-inner">
+                <a href="index.html" class="back-btn reveal">← Voltar</a>
+                <div class="section-label reveal">Sobre mim</div>
+                <h1 class="reveal">Quem está <br><span style="color:var(--accent)">por trás</span><br>do código</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="bio-section section">
+        <div class="container">
+            <div class="bio-grid">
+                <div class="bio-img-wrap reveal">
+                    <div class="bio-img" style="background-image: url('/imagens/minhafoto.jfif');"></div>
+                    <div class="bio-img-badge">
+                        Disponível<br>para projetos
+                    </div>
+                </div>
+                <div class="bio-text">
+                    <div class="section-label reveal">Minha história</div>
+                    <h2 class="reveal">Sabrina Santos</h2>
+                    <div class="reveal">
+                        <p>Desenvolvedora web com visão de produto. Comecei na programação através do SESI e, ao longo do caminho, descobri uma verdadeira paixão pela área.</p>
+                        <p>Venho construindo uma base sólida em HTML, CSS e JavaScript, com foco na criação de interfaces limpas, intuitivas e acessíveis, onde o design melhora a experiência do usuário.</p>
+                        <p>Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) pelo SENAI e sigo ampliando meus conhecimentos em React, Node.js e UI/UX, em busca de oportunidades para crescer e contribuir com projetos.</p>
+                        <p class="bio-highlight">Vamos construir algo extraordinário juntos.</p>
+                    </div>
+                    <a href="contato.html" class="btn-main reveal" style="margin-top:2rem; display:inline-flex;">
+                        <span>Entrar em contato</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS TÉCNICAS -->
+    <section class="skills-section section">
+        <div class="container">
+            <div class="section-label reveal">Habilidades técnicas</div>
+            <h2 class="reveal" style="margin-bottom:3.5rem">Hard Skills</h2>
+            <div class="skills-big-grid">
+                <div class="skill-group reveal">
+                    <h3>Frontend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>HTML5 / CSS3</span><span>95%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>JavaScript</span><span>88%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>React</span><span>80%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Python</span><span>85%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Responsive Design</span><span>92%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3>Backend & Ferramentas</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Node.js</span><span>72%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>APIs REST</span><span>78%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Git / GitHub</span><span>85%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Figma / UX</span><span>70%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Performance / SEO</span><span>75%</span></div>
+                            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOFT SKILLS -->
+            <div class="soft-grid">
+                <div class="soft-card reveal">
+                    <div class="soft-icon">💼</div>
+                    <h3>Trabalho em Equipe</h3>
+                    <p>Colaboração efetiva</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">💡</div>
+                    <h3>Criatividade</h3>
+                    <p>Soluções inovadoras</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">🎯</div>
+                    <h3>Foco em Detalhes</h3>
+                    <p>Precisão em tudo</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">💬</div>
+                    <h3>Comunicação</h3>
+                    <p>Clareza de ideias</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">🔧</div>
+                    <h3>Problem Solving</h3>
+                    <p>Análise profunda</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">📋</div>
+                    <h3>Organização</h3>
+                    <p>Gestão de tarefas</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">🔄</div>
+                    <h3>Adaptabilidade</h3>
+                    <p>Flexibilidade total</p>
+                </div>
+                <div class="soft-card reveal">
+                    <div class="soft-icon">👥</div>
+                    <h3>Liderança</h3>
+                    <p>Inspirar equipes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-final section">
+        <div class="container">
+            <div class="cta-box reveal">
+                <div class="cta-bg-blur"></div>
+                <div class="cta-content">
+                    <span class="section-label">Contato</span>
+                    <h2>Vamos trabalhar juntos?</h2>
+                    <p>Se o meu perfil faz sentido para o seu projeto, me manda uma mensagem. Adoro novos desafios.</p>
+                    <a href="contato.html" class="btn-main btn-main--light">
+                        <span>Enviar mensagem</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"><span class="logo-dot"></span>DEV</a>
+                    <p>Desenvolvedor web criativo.<br>Transformando ideias em realidade digital.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <span class="footer-col-title">Páginas</span>
+                        <a href="index.html">Home</a>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="footer-col-title">Social</span>
+                        <a href="#">GitHub</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Meu Portfólio</span>
+                <span>Feito com ♥ e muito café</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
